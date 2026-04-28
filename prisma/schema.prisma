@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model BuilderEnquiry {
+  id               String   @id @default(cuid())
+  companyName      String
+  contactPerson    String
+  phone            String
+  email            String
+  city             String
+  projects         String
+  monthlyEnquiries String
+  teamSize         String
+  message          String?
+  createdAt        DateTime @default(now())
+
+  @@map("builder_enquiries")
+}
+
+model SellerAppointment {
+  id               String   @id @default(cuid())
+  fullName         String
+  mobileNumber     String
+  email            String
+  propertyType     String
+  propertyLocation String
+  expectedPrice    String
+  preferredCallTime String
+  message          String?
+  createdAt        DateTime @default(now())
+
+  @@map("seller_appointments")
+}
