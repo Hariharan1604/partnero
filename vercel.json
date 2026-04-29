@@ -1,9 +1,9 @@
 {
   "buildCommand": "npm run build",
   "env": {
-    "DATABASE_URL": "@database_url",
-    "DIRECT_URL": "@direct_url",
-    "BREVO_API_KEY": "@brevo_api_key",
-    "ADMIN_EMAIL": "@admin_email"
+    "DATABASE_URL": "@DATABASE_URL",
+    "DIRECT_URL": "@DIRECT_URL",
+    "BREVO_API_KEY": "@BREVO_API_KEY",
+    "ADMIN_EMAIL": "@ADMIN_EMAIL"
   }
 }
