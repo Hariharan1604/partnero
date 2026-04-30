@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Partnero — Sales Systems for Real Estate Growth",
     description:
       "We help builders manage leads, improve follow-ups, and convert more buyers into bookings.",
-    url: "https://partnero.in",
+    url: "https://www.partner-o.com/",
     siteName: "Partnero",
     type: "website",
   },
